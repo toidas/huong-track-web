@@ -1,0 +1,36 @@
+body{font-family:'Open Sans',sans-serif;color:#353535}
+.content h1{text-align:center}
+.content .content-footer p{color:#6d6d6d;font-size:12px;text-align:center}
+.content .content-footer p a{color:inherit;font-weight:700}
+.panel{border:1px solid #ddd;background-color:#fcfcfc}
+.panel .btn-group{margin:15px 0 30px}
+.panel .btn-group .btn{transition:background-color .3s ease}
+.table-filter{background-color:#fff;border-bottom:1px solid #eee}
+.table-filter tbody tr:hover{cursor:pointer;background-color:#eee}
+.table-filter tbody tr td{padding:10px;vertical-align:middle;border-top-color:#eee}
+.table-filter tbody tr.selected td{background-color:#eee}
+.table-filter tr td:first-child{width:38px}
+.table-filter tr td:nth-child(2){width:35px}
+.ckbox{position:relative}
+.ckbox input[type="checkbox"]{opacity:0}
+.ckbox label:before{content:'';top:1px;left:0;width:18px;height:18px;display:block;position:absolute;border-radius:2px;border:1px solid #bbb;background-color:#fff}
+.ckbox input[type="checkbox"]:checked + label:before{border-color:#2BBCDE;background-color:#2BBCDE}
+.ckbox input[type="checkbox"]:checked + label:after{top:3px;left:3.5px;content:'\e013';color:#fff;position:absolute;font:11px 'Glyphicons Halflings'}
+.table-filter .star{color:#ccc;text-align:center;display:block}
+.table-filter .star.star-checked{color:#F0AD4E}
+.table-filter .star:hover{color:#ccc}
+.table-filter .star.star-checked:hover{color:#F0AD4E}
+.table-filter .media-photo{width:35px}
+.table-filter .media-body{display:block}
+.table-filter .media-meta{font-size:11px;color:#999}
+.table-filter .media .title{color:#2BBCDE;font-size:14px;font-weight:700;line-height:normal;margin:0}
+.table-filter .media .title span{font-size:.8em;margin-right:20px}
+.table-filter .media .title span.pagado{color:#5cb85c}
+.table-filter .media .title span.pendiente{color:#f0ad4e}
+.table-filter .media .title span.cancelado{color:#d9534f}
+.table-filter .media .summary{font-size:14px}
+.table-model thead th .sortable{cursor:pointer;background-position:right;background-repeat:no-repeat;padding-right:30px}
+.table-model thead th .both{background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAQAAADYWf5HAAAAkElEQVQoz7X QMQ5AQBCF4dWQSJxC5wwax1Cq1e7BAdxD5SL+Tq/QCM1oNiJidwox0355mXnG/DrEtIQ6azioNZQxI0ykPhTQIwhCR+BmBYtlK7kLJYwWCcJA9M4qdrZrd8pPjZWPtOqdRQy320YSV17OatFC4euts6z39GYMKRPCTKY9UnPQ6P+GtMRfGtPnBCiqhAeJPmkqAAAAAElFTkSuQmCC')}
+.table-model thead th .asc{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZ0lEQVQ4y2NgGLKgquEuFxBPAGI2ahhWCsS/gDibUoO0gPgxEP8H4ttArEyuQYxAPBdqEAxPBImTY5gjEL9DM+wTENuQahAvEO9DMwiGdwAxOymGJQLxTyD+jgWDxCMZRsEoGAVoAADeemwtPcZI2wAAAABJRU5ErkJggg==)}
+.table-model thead th .desc{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZUlEQVQ4y2NgGAWjYBSggaqGu5FA/BOIv2PBIPFEUgxjB+IdQPwfC94HxLykus4GiD+hGfQOiB3J8SojEE9EM2wuSJzcsFMG4ttQgx4DsRalkZENxL+AuJQaMcsGxBOAmGvopk8AVz1sLZgg0bsAAAAASUVORK5CYII=)}
+.vn-form label{font-weight:700;text-transform:capitalize}
